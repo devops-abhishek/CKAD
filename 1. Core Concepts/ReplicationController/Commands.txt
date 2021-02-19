@@ -1,0 +1,3 @@
+#kubectl create -f rc-definiton.yaml
+#kubectl get rc
+#kubectl delete rc nginx-rc

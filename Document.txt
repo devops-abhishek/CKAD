@@ -1,0 +1,2 @@
+Find docker container running with which user :
+#docker inspect $(docker ps -q) --format '{{.Config.User}} {{.Name}}'

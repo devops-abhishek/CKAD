@@ -1,0 +1,10 @@
+Cluster:
+  Master Node: (Control Plane Components)
+    etcd
+    API-Server
+    Controller-Manager
+    Scheduler
+  Worker Node:
+    Kubelet
+    Kube-proxy
+    Container Runtime

@@ -1,0 +1,4 @@
+#kubectl create -f rs-definiton.yaml
+#kubectl get rs
+#kubectl delete rs nginx-rs
+#kubectl scale --replicas=5 rs nginx-rs 

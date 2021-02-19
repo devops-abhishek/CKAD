@@ -1,0 +1,8 @@
+#kubectl create -f namespace-definition.yaml
+#kubectl get ns
+#kubectl create ns dev
+#kubectl delete ns dev
+#kubectl get all --all-namespaces
+
+Switch Namespaces:
+#kubectl config set-context $(kubectl config current-context) --namespace=dev

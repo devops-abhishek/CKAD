@@ -1,0 +1,5 @@
+#kubectl cluster-info
+#kubectl get nodes
+
+Run POD :
+#kubectl run nginx --image=nginx

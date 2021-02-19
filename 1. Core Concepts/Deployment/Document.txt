@@ -1,0 +1,9 @@
+#kubectl create -f deployment-definiton.yaml
+#kubectl get deployment
+#kubectl delete pod nginx-deployment
+#kubectl scale --replicas=2 deploy nginx-deployment
+#kubectl rollout status deploy nginx-deployment
+#kubectl rollout history deploy nginx-deployment
+#kubectl rollout pause deploy nginx-deployment
+#kubectl rollout resume deploy nginx-deployment
+#kubectl rollout undo deploy nginx-deployment
